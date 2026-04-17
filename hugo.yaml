@@ -67,6 +67,10 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/iamedu"
+    - name: threads
+      url: "https://www.threads.com/@ediazr"
+    - name: instagram
+      url: "https://instagram.com/ediazr"
 
   # analytics:
   #     umami:

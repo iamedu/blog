@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Eduardo Diaz</title>
-    <link>http://10.0.0.47:1314/</link>
-    <description>Recent content on Eduardo Diaz</description>
+    <title>Hello on Eduardo Diaz</title>
+    <link>http://10.0.0.47:1314/tags/hello/</link>
+    <description>Recent content in Hello on Eduardo Diaz</description>
     <image>
       <title>Eduardo Diaz</title>
       <url>http://10.0.0.47:1314/images/profile.jpg</url>
@@ -12,23 +12,7 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 16 Apr 2026 18:35:00 -0700</lastBuildDate>
-    <atom:link href="http://10.0.0.47:1314/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>About</title>
-      <link>http://10.0.0.47:1314/about/</link>
-      <pubDate>Thu, 16 Apr 2026 18:35:00 -0700</pubDate>
-      <guid>http://10.0.0.47:1314/about/</guid>
-      <description>&lt;p&gt;Hi, I&amp;rsquo;m Eduardo Diaz.&lt;/p&gt;
-&lt;p&gt;I work at Meta and enjoy building things. This blog is where I share personal thoughts and tech posts.&lt;/p&gt;
-&lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/iamedu/plant-monitor&#34;&gt;Plant Monitor&lt;/a&gt; - ESP32-based plant monitoring system&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;contact&#34;&gt;Contact&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/iamedu&#34;&gt;@iamedu&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
-    </item>
+    <atom:link href="http://10.0.0.47:1314/tags/hello/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World</title>
       <link>http://10.0.0.47:1314/posts/hello-world/</link>

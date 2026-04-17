@@ -2,15 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Eduardo Diaz</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>http://10.0.0.47:1314/tags/</link>
     <description>Recent content in Tags on Eduardo Diaz</description>
     <image>
       <title>Eduardo Diaz</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.0.0.47:1314/images/profile.jpg</url>
+      <link>http://10.0.0.47:1314/images/profile.jpg</link>
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2026 18:35:00 -0700</lastBuildDate>
+    <atom:link href="http://10.0.0.47:1314/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First-Post</title>
+      <link>http://10.0.0.47:1314/tags/first-post/</link>
+      <pubDate>Thu, 16 Apr 2026 18:35:00 -0700</pubDate>
+      <guid>http://10.0.0.47:1314/tags/first-post/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hello</title>
+      <link>http://10.0.0.47:1314/tags/hello/</link>
+      <pubDate>Thu, 16 Apr 2026 18:35:00 -0700</pubDate>
+      <guid>http://10.0.0.47:1314/tags/hello/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

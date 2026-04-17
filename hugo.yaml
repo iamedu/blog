@@ -10,7 +10,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: Eduardo Diaz
   # author: ["Me", "You"] # multiple authors
-  # images: ["/images/og-image.png"]
+  images: ["/images/profile.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -34,11 +34,10 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    # favicon: "/favicon.ico"
-    # favicon16x16: "/favicon-16x16.png"
-    # favicon32x32: "/favicon-32x32.png"
-    # apple_touch_icon: "/apple-touch-icon.png"
-    # safari_pinned_tab: "/safari-pinned-tab.svg"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
 
   label:
     text: "Home"
@@ -50,10 +49,10 @@ params:
     enabled: true # needs to be explicitly set
     title: "Eduardo Diaz"
     subtitle: "Personal thoughts and tech posts"
-    imageUrl: "#"
+    imageUrl: "/images/profile.jpg"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: "Eduardo Diaz"
     buttons:
       - name: Posts
         url: posts

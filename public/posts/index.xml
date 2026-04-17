@@ -2,15 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Eduardo Diaz</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>http://10.0.0.47:1314/posts/</link>
     <description>Recent content in Posts on Eduardo Diaz</description>
     <image>
       <title>Eduardo Diaz</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://10.0.0.47:1314/images/profile.jpg</url>
+      <link>http://10.0.0.47:1314/images/profile.jpg</link>
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Apr 2026 18:35:00 -0700</lastBuildDate>
+    <atom:link href="http://10.0.0.47:1314/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://10.0.0.47:1314/posts/hello-world/</link>
+      <pubDate>Thu, 16 Apr 2026 18:35:00 -0700</pubDate>
+      <guid>http://10.0.0.47:1314/posts/hello-world/</guid>
+      <description>&lt;p&gt;Welcome to my blog! This is my first post.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be writing about:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Personal thoughts&lt;/li&gt;
+&lt;li&gt;Tech projects&lt;/li&gt;
+&lt;li&gt;Things I&amp;rsquo;m learning&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay tuned for more!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

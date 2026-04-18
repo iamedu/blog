@@ -2,6 +2,7 @@ baseURL: 'https://iamedu.io'
 languageCode: 'en-us'
 title: 'Eduardo Diaz'
 theme: 'PaperMod'
+googleAnalytics: 'G-G4J52NKYRV'
 
 params:
   env: production

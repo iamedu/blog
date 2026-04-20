@@ -2,7 +2,7 @@
 title: "Well, here we are"
 date: 2026-04-16T18:35:00-07:00
 draft: false
-tags: ["hello", "first-post", "pnw", "mexico", "ai"]
+tags: ["hello", "first-post", "pnw", "mexico", "ai", "human"]
 cover:
   image: "/images/posts/hello-world/cover.jpg"
   alt: "Seattle waterfront at sunset with patterned clouds"

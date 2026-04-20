@@ -37,6 +37,7 @@ params:
     # disableFingerprinting: true
     customCSS:
       - css/split.css
+      - css/gallery.css
     favicon: "/favicon.ico"
     favicon16x16: "/favicon-16x16.png"
     favicon32x32: "/favicon-32x32.png"
@@ -115,6 +116,10 @@ menu:
       name: about
       url: /about/
       weight: 30
+    - identifier: gallery
+      name: gallery
+      url: /gallery/
+      weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

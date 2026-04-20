@@ -1,0 +1,34 @@
+{{ define "main" }}
+<main class="main gallery-page">
+  <header class="page-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Content }}<div class="post-content">{{ . }}</div>{{ end }}
+  </header>
+
+  {{ $posts := where site.RegularPages "Section" "posts" }}
+  {{ if gt (len $posts) 0 }}
+    <div class="gallery-grid">
+      {{ range $posts.ByDate.Reverse }}
+        {{ $cover := "" }}
+        {{ with .Params.cover }}
+          {{ $cover = .image | default "" }}
+        {{ end }}
+        <a class="gallery-card" href="{{ .RelPermalink }}">
+          {{ if $cover }}
+            <img src="{{ $cover | relURL }}" alt="{{ .Params.cover.alt | default .Title }}" class="gallery-card-image" loading="lazy">
+          {{ else }}
+            <div class="gallery-card-placeholder">No cover image</div>
+          {{ end }}
+          <div class="gallery-card-body">
+            <h2>{{ .Title }}</h2>
+            <p>{{ .Date.Format "Jan 2, 2006" }}</p>
+            {{ with .Summary }}<div class="gallery-card-summary">{{ . | plainify | truncate 110 }}</div>{{ end }}
+          </div>
+        </a>
+      {{ end }}
+    </div>
+  {{ else }}
+    <p>No posts yet.</p>
+  {{ end }}
+</main>
+{{ end }}

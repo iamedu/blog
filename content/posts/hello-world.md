@@ -3,6 +3,10 @@ title: "Well, here we are"
 date: 2026-04-16T18:35:00-07:00
 draft: false
 tags: ["hello", "first-post", "pnw", "mexico", "ai"]
+cover:
+  image: "/images/posts/hello-world/cover.jpg"
+  alt: "Seattle waterfront at sunset with patterned clouds"
+  caption: "Seattle, the Pacific Northwest, and the feeling of starting something new"
 ---
 
 If you ended up here on purpose, welcome. If you got here by mistake, welcome too.

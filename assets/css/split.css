@@ -1,0 +1,30 @@
+.split-container {
+  display: flex;
+  gap: 2rem;
+  margin: 1.5rem 0;
+}
+.split-left, .split-right {
+  flex: 1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+.split-left {
+  background: rgba(99, 179, 237, 0.08);
+  border-left: 3px solid rgba(99, 179, 237, 0.4);
+}
+.split-right {
+  background: rgba(56, 217, 169, 0.08);
+  border-left: 3px solid rgba(56, 217, 169, 0.4);
+}
+.split-left h4, .split-right h4 {
+  margin-top: 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  opacity: 0.7;
+}
+@media (max-width: 768px) {
+  .split-container {
+    flex-direction: column;
+  }
+}

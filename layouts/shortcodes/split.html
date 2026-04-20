@@ -1,0 +1,10 @@
+<div class="split-container">
+  <div class="split-left">
+    <h4>{{ .Get "left-label" | default "Version A" }}</h4>
+    {{ .Inner | markdownify }}
+  </div>
+  <div class="split-right">
+    <h4>{{ .Get "right-label" | default "Version B" }}</h4>
+    {{ .Get "right" | markdownify }}
+  </div>
+</div>
